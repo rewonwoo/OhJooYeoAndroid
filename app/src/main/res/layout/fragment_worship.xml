@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <RelativeLayout
+       android:layout_width="760dp"
+       android:layout_height="60dp"
+       android:background="#ff677c">
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentLeft="true"
+           android:layout_centerVertical="true"
+           android:layout_marginStart="140dp"
+           android:layout_marginLeft="140dp"
+           android:text="돈암동교회 청년예배"
+           android:textColor="#ffffff"
+           android:textSize="28dp" />
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/textView2"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentLeft="true"
+          android:layout_marginStart="12dp"
+          android:layout_marginLeft="12dp"
+          android:layout_marginBottom="0dp"
+          android:text="기독교 대한감리회"
+          android:textColor="#ffffff" />
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/textView3"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentLeft="true"
+          android:layout_marginStart="12dp"
+          android:layout_marginLeft="12dp"
+          android:layout_marginBottom="5dp"
+          android:text="제 36권 31호 2019년01월01일"
+
+          android:textColor="#ffffff"
+          android:textSize="8sp" />
+   </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp">
+
+      <TextView
+          android:layout_marginTop="16dp"
+          android:layout_marginLeft="8dp"
+          android:layout_marginRight="8dp"
+          android:textSize="17dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="청년이 무엇으로 그의 행실은 꺠끗하게 하리이까 주의 말씀만 지킬따름이니이다. -시편 119:9-"/>
+
+
+   </RelativeLayout>
+
+</LinearLayout>
